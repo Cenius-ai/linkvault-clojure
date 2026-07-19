@@ -1,0 +1,6 @@
+.env
+*.db
+target/
+.classpath
+.project
+.settings
