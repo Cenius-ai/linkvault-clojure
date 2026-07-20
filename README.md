@@ -1,4 +1,4 @@
-# LinkVault — open-source bookmark knowledge base app
+# LinkVault — Clojure bookmark knowledge base app reference implementation
 
 **LinkVault** is a free, open-source bookmark knowledge base app built with Clojure. Build a bookmark manager web application in Clojure using Ring/Compojure for routing, Hiccup for server-rendered HTML, and SQLite for storage. Run it locally, deploy it as a self-hosted knowledge base app, or [remix it on cenius.ai](https://cenius.ai/marketplace/p/linkvault?ref=gh&utm_campaign=linkvault-clojure) to make it your own — the whole application (code, design, seeded demo data) ships in this repository under the MIT license.
 
@@ -6,7 +6,9 @@
 
 ## Demo
 
-![LinkVault demo — bookmark knowledge base app built with Clojure](.github/media/hero.gif)
+![LinkVault — bookmark knowledge base app](.github/media/poster.png)
+
+![LinkVault demo — bookmark knowledge base app built with Clojure](.github/media/hero_flagship.gif)
 
 ▶ **[Watch the full demo video](https://cenius.ai/marketplace/p/linkvault?ref=gh&utm_campaign=linkvault-clojure)** — the complete walkthrough, playing on the project's cenius.ai page · [MP4 file](.github/media/demo.mp4)
 
@@ -85,7 +87,7 @@ _Full guide: [`USAGE.md`](USAGE.md)_
 
 ## Architecture
 
-Clojure application, delivered as a complete, runnable project (21 files). Top-level layout: `resources/`, `src/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
+Clojure application, delivered as a complete, runnable project (15 files). Top-level layout: `resources/`, `src/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
